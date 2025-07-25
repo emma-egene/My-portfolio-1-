@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hadi's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #f5f7fa;
+    color: #333;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    color: #004aad;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #222;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-left: 4px solid #004aad;
+    padding-left: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+blockquote {
+    background: #eef3ff;
+    border-left: 5px solid #004aad;
+    margin: 20px 0;
+    padding: 15px 20px;
+    font-style: italic;
+    border-radius: 8px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+
+section{
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    animation: slideInLeft 1s ease-out;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    main {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Hadi's Tech Journey</h1>
+            <p>Welcome to my portfolio — discover my passion and journey through the tech world.</p>
+        </header>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>My name is Yahaya Abdul-Hadi. I am an aspiring AI CEO and founder of a future tech company focused on aiding academic research through innovative technologies.</p>
+        </section>
+
+        <section class="past-exp">
+            <h2>Past Experiences</h2>
+            <p>I started my tech journey with front-end web development, building several websites using HTML, CSS, and JavaScript. This helped me master key design concepts.</p>
+            <blockquote>
+                One of my projects was <strong>Mathfula</strong> — a website designed to help high school students understand mathematical concepts. It’s currently a prototype, but I aim to turn it into a full-fledged app.  
+                👉 <a href="https://github.com/Hadi-yahaya418/MATHFULA-WEBSITE.git" target="_blank">View on GitHub</a>
+            </blockquote>
+        </section>
+
+        <section class="present-exp">
+            <h2>Present Experience</h2>
+            <p>I’m currently focused on data analysis using Python. It’s a fun and insightful field that blends math and real-world data to uncover trends and insights. I'm also diving into machine learning and AI concepts.</p>
+            <blockquote>
+                One recent project analyzed <strong>infant mortality rates in Africa</strong> — a research-driven data analysis.  
+                👉 <a href="https://github.com/Hadi-yahaya418/Infant_Mortality_rate_In_Africa/tree/main" target="_blank">View on GitHub</a>
+            </blockquote>
+        </section>
+
+        <section class="future-exp">
+            <h2>Future Ambitions</h2>
+            <p>My ultimate goal is to develop an AI model that revolutionizes academic research. I plan to work with languages like Python, C++, and Ruby to bring this vision to life.</p>
+            <blockquote>Thanks for visiting my portfolio!</blockquote>
+        </section>
+    </main>
+</body>
+</html>
